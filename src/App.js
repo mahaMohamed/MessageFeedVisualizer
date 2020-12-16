@@ -1,25 +1,26 @@
 import logo from './logo.svg';
+import MessageFilter from "./MessageFilter.js"
+import Map from "./Map.js"
+import React from "react"
 import './App.css';
+import GoogleMapReact from 'google-map-react';
+import withScriptjs from 'google-map-react';
+import withGoogleMap from 'google-map-react';
+
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  return (
+    <div>
+     
+
+      <p> Hellllo </p>
+
+    </div>)
+
+}
 export default App;
