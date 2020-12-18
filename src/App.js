@@ -14,22 +14,22 @@ import withGoogleMap from 'google-map-react';
 
 function App() {
 
+  document.title = "Message Feed"
 
   return (
     <div>
 
 
-    <h1> Message Feed </h1>
+     <span><h1 className="App-header"> Message Feed </h1>
+     <i class="bi bi-envelope-open-fill"></i>
 
-    <MessageFilter/>
-    {/* <MapContainer/> */}
+</span> 
 
-    {/* <div style={{color: "black", width: "100%", height:"100%"}}> Hwllo  </div> */}
-
+      <MessageFilter />
     </div>
-    
-    
-    )
+
+
+  )
 
 }
 export default App;

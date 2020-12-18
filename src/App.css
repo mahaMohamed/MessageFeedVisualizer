@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+
+body{
+  background-color: #282c34;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: xx-large;
+
 }
 
 .App-logo {
@@ -14,8 +26,11 @@
 }
 
 .App-header {
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +51,4 @@
     transform: rotate(360deg);
   }
 }
+
